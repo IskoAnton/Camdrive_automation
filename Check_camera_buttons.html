@@ -4,48 +4,54 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://ms4.camdrive.lan/" />
-<title>Login_true</title>
+<title>Check_camera_buttons</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Login_true</td></tr>
+<tr><td rowspan="1" colspan="3">Check_camera_buttons</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/</td>
+	<td>/online</td>
 	<td></td>
 </tr>
 <tr>
-	<td>store</td>
-	<td>tester6</td>
-	<td>login</td>
-</tr>
-<tr>
-	<td>store</td>
-	<td>tester6</td>
-	<td>password</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=username</td>
-	<td>${login}</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=password</td>
-	<td>${password}</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=login</td>
+	<td>assertElementPresent</td>
+	<td>id=screen_1</td>
 	<td></td>
 </tr>
 <tr>
-	<td>waitForElementPresent</td>
-	<td>id=jstree</td>
+	<td>assertElementPresent</td>
+	<td>id=screen_2</td>
 	<td></td>
 </tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=screen_3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=screen_4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=activation-device</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=deactivation-device</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=rename-channel</td>
+	<td></td>
+</tr>
+
 </tbody></table>
 </body>
 </html>

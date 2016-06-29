@@ -1,0 +1,7 @@
+[ { login: 'tester1', password: 'tester1'}
+, { login: 'tester2', password: 'tester2'}
+, { login: 'tester3', password: 'tester3'}
+, { login: 'tester4', password: 'tester4'}
+, { login: 'tester5', password: 'tester5'}
+, { login: 'tester6', password: 'tester6'}
+]

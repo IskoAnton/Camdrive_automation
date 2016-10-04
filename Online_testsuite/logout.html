@@ -4,42 +4,27 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://ms4.camdrive.lan/" />
-<title>account_entry</title>
+<title>logout</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">account_entry</td></tr>
+<tr><td rowspan="1" colspan="3">logout</td></tr>
 </thead><tbody>
 <tr>
-	<td>store</td>
-	<td>tester5</td>
-	<td>login</td>
-</tr>
-<tr>
-	<td>store</td>
-	<td>tester5</td>
-	<td>password</td>
-</tr>
-<tr>
-	<td>sendKeys</td>
-	<td>name=username</td>
-	<td>${login}</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=password</td>
-	<td>${password}</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=login</td>
+	<td>open</td>
+	<td>/online</td>
 	<td></td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>id=screen_1</td>
+	<td>clickAndWait</td>
+	<td>//input[@value='Выйти']</td>
 	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.form-header</td>
+	<td>RU EN AZ RURUENAZ</td>
 </tr>
 </tbody></table>
 </body>

@@ -4,41 +4,51 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://ms4.camdrive.lan/" />
-<title>account_entry</title>
+<title>Open_tree</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">account_entry</td></tr>
+<tr><td rowspan="1" colspan="3">Open_tree</td></tr>
 </thead><tbody>
 <tr>
-	<td>store</td>
-	<td>tester5</td>
-	<td>login</td>
-</tr>
-<tr>
-	<td>store</td>
-	<td>tester5</td>
-	<td>password</td>
-</tr>
-<tr>
-	<td>sendKeys</td>
-	<td>name=username</td>
-	<td>${login}</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=password</td>
-	<td>${password}</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=login</td>
+	<td>open</td>
+	<td>/online</td>
 	<td></td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>id=screen_1</td>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=ins.jstree-icon</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='jstree']//li[contains(@class, 'jstree-closed')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=ins.jstree-icon</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='jstree']//li[contains(@class, 'jstree-open')]</td>
 	<td></td>
 </tr>
 </tbody></table>

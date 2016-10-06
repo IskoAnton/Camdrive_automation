@@ -17,11 +17,7 @@ public class AccountEntry extends TestNgTestBase {
     driver.findElement(By.xpath("//input[@name='password']")).clear();
     driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
     driver.findElement(By.id("login")).click();
-    for (int second = 0;; second++) {
-    	if (second >= 60) fail("timeout");
-    	try { if ("".equals(driver.findElement(By.id("screen_1")).getText())) break; } catch (Exception e) {}
-    	Thread.sleep(1000);
-    }
+    
 
   }
 

@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4818" started-at="2016-10-07T03:48:24Z" finished-at="2016-10-07T03:48:28Z">
+  <suite name="Default suite" duration-ms="10807" started-at="2016-10-07T08:30:29Z" finished-at="2016-10-07T08:30:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4818" started-at="2016-10-07T03:48:24Z" finished-at="2016-10-07T03:48:28Z">
-      <class name="ru.stqa.selenium.AccountEntry">
-        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:ru.stqa.selenium.AccountEntry@28d25987]" name="initTestSuite" is-config="true" duration-ms="15" started-at="2016-10-07T10:48:24Z" finished-at="2016-10-07T10:48:24Z">
+    <test name="Default test" duration-ms="10807" started-at="2016-10-07T08:30:29Z" finished-at="2016-10-07T08:30:39Z">
+      <class name="ru.stqa.selenium.Calendar">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:ru.stqa.selenium.Calendar@27efef64]" name="initTestSuite" is-config="true" duration-ms="15" started-at="2016-10-07T15:30:29Z" finished-at="2016-10-07T15:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestSuite -->
-        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.AccountEntry@28d25987]" name="initWebDriver" is-config="true" duration-ms="2514" started-at="2016-10-07T10:48:24Z" finished-at="2016-10-07T10:48:26Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.Calendar@27efef64]" name="initWebDriver" is-config="true" duration-ms="2536" started-at="2016-10-07T15:30:29Z" finished-at="2016-10-07T15:30:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="PASS" signature="testAccountEntry()[pri:0, instance:ru.stqa.selenium.AccountEntry@28d25987]" name="testAccountEntry" duration-ms="2290" started-at="2016-10-07T10:48:26Z" finished-at="2016-10-07T10:48:28Z">
+        <test-method status="PASS" signature="testCalendar()[pri:0, instance:ru.stqa.selenium.Calendar@27efef64]" name="testCalendar" duration-ms="8255" started-at="2016-10-07T15:30:31Z" finished-at="2016-10-07T15:30:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAccountEntry -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.stqa.selenium.AccountEntry@28d25987]" name="tearDown" is-config="true" duration-ms="839" started-at="2016-10-07T10:48:28Z" finished-at="2016-10-07T10:48:29Z">
+        </test-method> <!-- testCalendar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.stqa.selenium.Calendar@27efef64]" name="tearDown" is-config="true" duration-ms="864" started-at="2016-10-07T15:30:39Z" finished-at="2016-10-07T15:30:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ru.stqa.selenium.AccountEntry -->
+      </class> <!-- ru.stqa.selenium.Calendar -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -17,6 +17,16 @@
 	<td></td>
 </tr>
 <tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@id='jstree']//li/ul//li[1]//a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='jstree']//li/ul//li[1]//a</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>link=Архив</td>
 	<td></td>
@@ -27,41 +37,20 @@
 	<td></td>
 </tr>
 <tr>
-	<td>for</td>
-	<td>i=1; i&lt;=100; i++</td>
-	<td></td>
-</tr>
-<tr>
-	<td>storeEval</td>
-	<td>Math.floor(1+Math.random()*30)</td>
-	<td>randomDate</td>
-</tr>
-<tr>
-	<td>storeElementPresent</td>
-	<td>//td[${randomDate}][@data-handler='selectDay']/a[contains(@class, 'ui-state-default')]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>if</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>endFor</td>
-	<td></td>
+	<td>assertElementPresent</td>
+	<td>//div[@id='ui-datepicker-div' and contains(@style, 'display: block;')]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>//td[${randomDate}][@data-handler='selectDay']/a[contains(@class, 'ui-state-default')]</td>
+	<td>//div[@id='ui-datepicker-div']//tr[2]//td[4][contains(@data-handler, 'selectDay')]</td>
 	<td></td>
 </tr>
 <tr>
-	<td>endIf</td>
-	<td></td>
+	<td>waitForElementPresent</td>
+	<td>//div[@id='ui-datepicker-div' and contains(@style, 'display: none;')]</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

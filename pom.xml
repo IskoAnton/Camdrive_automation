@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ru.stqa.selenium</groupId>
   <artifactId>Camdrive_automation</artifactId>
-  <version>y</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <dependencies>
@@ -137,9 +137,9 @@
     </profile>
     <!-- environments -->
     <profile>
-      <id>ms4</id>
+      <id>localhost</id>
       <properties>
-        <site.url>http://ms4.camdrive.lan/</site.url>
+        <site.url>http://localhost/</site.url>
       </properties>
       <activation>
         <activeByDefault>true</activeByDefault>
@@ -148,19 +148,19 @@
     <profile>
       <id>devhost</id>
       <properties>
-        <site.url>http://ms4.camdrive.lan/</site.url>
+        <site.url>http://devhost/</site.url>
       </properties>
     </profile>
     <profile>
       <id>testhost</id>
       <properties>
-        <site.url>http://ms4.camdrive.lan/</site.url>
+        <site.url>http://testhost/</site.url>
       </properties>
     </profile>
     <profile>
       <id>prodhost</id>
       <properties>
-        <site.url>http://ms4.camdrive.lan/</site.url>
+        <site.url>http://prodhost.com/</site.url>
       </properties>
     </profile>
     <!-- grid -->

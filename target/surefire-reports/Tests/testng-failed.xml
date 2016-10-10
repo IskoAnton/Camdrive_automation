@@ -3,20 +3,19 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Tests]">
   <test name="Test1">
     <classes>
-      <class name="ru.stqa.selenium.SampleTestNgTest"/>
+      <class name="ru.stqa.selenium.AccountEntry"/>
     </classes>
   </test> <!-- Test1 -->
   <test name="Test1(failed)">
     <classes>
-      <class name="ru.stqa.selenium.SampleTestNgTest">
+      <class name="ru.stqa.selenium.AccountEntry">
         <methods>
-          <include name="initPageObjects"/>
-          <include name="testHomePageHasAHeader"/>
+          <include name="testCalendar"/>
           <include name="initTestSuite"/>
           <include name="initWebDriver"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- ru.stqa.selenium.SampleTestNgTest -->
+      </class> <!-- ru.stqa.selenium.AccountEntry -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Tests] -->

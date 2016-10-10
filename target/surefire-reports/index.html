@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,10 +102,24 @@
                     <div class="method-list-content failed suite-Tests">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="ru.stqa.selenium.SampleTestNgTest" hash-for-method="testHomePageHasAHeader">testHomePageHasAHeader</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="ru.stqa.selenium.AccountEntry" hash-for-method="testCalendar">testCalendar</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Tests" class="hide-methods passed suite-Tests"> (hide)</a> <!-- hide-methods passed suite-Tests -->
+                      <a href="#" panel-name="suite-Tests" class="show-methods passed suite-Tests"> (show)</a> <!-- show-methods passed suite-Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="ru.stqa.selenium.AccountEntry" hash-for-method="testAccountEntry">testAccountEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Tests -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -120,50 +134,54 @@
           <div class="suite-Tests-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">ru.stqa.selenium.SampleTestNgTest</span>
+              <span class="class-name">ru.stqa.selenium.AccountEntry</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testHomePageHasAHeader">
-                  </a> <!-- testHomePageHasAHeader -->
-                  <span class="method-name">testHomePageHasAHeader</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;h1&quot;}
-Command duration or timeout: 26 milliseconds
+                  <a name="testCalendar">
+                  </a> <!-- testCalendar -->
+                  <span class="method-name">testCalendar</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;РђСЂС…РёРІ&quot;}
+  (Session info: chrome=53.0.2785.143)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;DEVPC13&apos;, ip: &apos;192.168.28.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f87d8d7c-6567-4e73-9ad0-d1dbfddf6ee3
-*** Element info: {Using=tag name, value=h1}
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\Tester\AppData\Local\Temp\scoped_dir8480_4511}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.143, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 067f4984311b49a0e8d28309e87f002a
+*** Element info: {Using=link text, value=РђСЂС…РёРІ}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByTagName.findElement(By.java:334)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getText(Unknown Source)
-	at ru.stqa.selenium.SampleTestNgTest.testHomePageHasAHeader(SampleTestNgTest.java:23)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;h1&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;DEVPC13&apos;, ip: &apos;192.168.28.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Tester/AppData/Local/Temp/anonymous68378989319855464webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/Tester/AppData/Local/Temp/anonymous68378989319855464webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Tester/AppData/Local/Temp/anonymous68378989319855464webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Tester/AppData/Local/Temp/anonymous68378989319855464webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/Tester/AppData/Local/Temp/anonymous68378989319855464webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at ru.stqa.selenium.AccountEntry.testCalendar(AccountEntry.java:40)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Tests-class-failed -->
+          <div class="suite-Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.stqa.selenium.AccountEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAccountEntry">
+                  </a> <!-- testAccountEntry -->
+                  <span class="method-name">testAccountEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tests-class-passed -->
         </div> <!-- panel Tests -->
         <div panel-name="test-xml-Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -176,20 +194,19 @@ Driver info: driver.version: unknown
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Tests&quot;&gt;
   &lt;test name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ru.stqa.selenium.SampleTestNgTest&quot;/&gt;
+      &lt;class name=&quot;ru.stqa.selenium.AccountEntry&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test1 --&gt;
   &lt;test name=&quot;Test1(failed)&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ru.stqa.selenium.SampleTestNgTest&quot;&gt;
+      &lt;class name=&quot;ru.stqa.selenium.AccountEntry&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;initPageObjects&quot;/&gt;
-          &lt;include name=&quot;testHomePageHasAHeader&quot;/&gt;
+          &lt;include name=&quot;testCalendar&quot;/&gt;
           &lt;include name=&quot;initTestSuite&quot;/&gt;
           &lt;include name=&quot;initWebDriver&quot;/&gt;
           &lt;include name=&quot;tearDown&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- ru.stqa.selenium.SampleTestNgTest --&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.AccountEntry --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test1(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Tests --&gt;
@@ -232,16 +249,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testHomePageHasAHeader')
-data.setCell(0, 2, 'ru.stqa.selenium.SampleTestNgTest')
-data.setCell(0, 3, 1070);
+data.setCell(0, 1, 'testAccountEntry')
+data.setCell(0, 2, 'ru.stqa.selenium.AccountEntry')
+data.setCell(0, 3, 3690);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCalendar')
+data.setCell(1, 2, 'ru.stqa.selenium.AccountEntry')
+data.setCell(1, 3, 1902);
 window.suiteTableData['Tests']= { tableData: data, tableDiv: 'times-div-Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Tests">
               </div> <!-- times-div-Tests -->
             </div> <!-- times-div -->
@@ -267,30 +288,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ru.stqa.selenium.SampleTestNgTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">ru.stqa.selenium.AccountEntry</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initTestSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">initWebDriver</span>
-                <span class="method-start">28 ms</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAccountEntry</span>
+                <span class="method-start">2594 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">initPageObjects</span>
-                <span class="method-start">4739 ms</span>
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">6285 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testHomePageHasAHeader</span>
-                <span class="method-start">4783 ms</span>
+                <span class="method-name">testCalendar</span>
+                <span class="method-start">6292 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5897 ms</span>
+                <span class="method-start">8240 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

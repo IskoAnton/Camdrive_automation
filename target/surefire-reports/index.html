@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Tests">
-              <span class="suite-name border-passed">Tests</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-failed">Suite1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Tests">
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
                     <span>C:\Camdrive_automation\src\test\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Tests">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Tests">
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Tests">
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Tests">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Tests">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Tests">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,75 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.LanguageEng" hash-for-method="testLanguageEng">testLanguageEng</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.LanguageRus" hash-for-method="testLanguageRus">testLanguageRus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Tests" class="hide-methods passed suite-Tests"> (hide)</a> <!-- hide-methods passed suite-Tests -->
-                      <a href="#" panel-name="suite-Tests" class="show-methods passed suite-Tests"> (show)</a> <!-- show-methods passed suite-Tests -->
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
                     </span>
-                    <div class="method-list-content passed suite-Tests">
+                    <div class="method-list-content passed suite-Suite1">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="ru.stqa.selenium.AccountEntry" hash-for-method="testAccountEntry">testAccountEntry</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.AccountEntry" hash-for-method="testAccountEntry">testAccountEntry</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Tests -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.Calendar" hash-for-method="testCalendar">testCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.ForgotPassword" hash-for-method="testForgotPassword">testForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.ForgotPasswordEmpty" hash-for-method="testForgotPasswordEmpty">testForgotPasswordEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.ForgotPasswordInvalid" hash-for-method="testForgotPasswordInvalid">testForgotPasswordInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.LoginFalse" hash-for-method="testLoginFalse">testLoginFalse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.LoginTrue" hash-for-method="testLoginTrue">testLoginTrue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="ru.stqa.selenium.ShowPassword" hash-for-method="testShowPassword">testShowPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,8 +170,177 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Tests" class="panel Tests">
-          <div class="suite-Tests-class-passed">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ru.stqa.selenium.LanguageEng</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLanguageEng">
+                  </a> <!-- testLanguageEng -->
+                  <span class="method-name">testLanguageEng</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=53.0.2785.143)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DEVPC13&apos;, ip: &apos;192.168.28.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\Tester\AppData\Local\Temp\scoped_dir1812_6222}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.143, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85220f546cbac66e19750164c2ec8bcd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at ru.stqa.selenium.LanguageEng.testLanguageEng(LanguageEng.java:14)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ru.stqa.selenium.LanguageRus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLanguageRus">
+                  </a> <!-- testLanguageRus -->
+                  <span class="method-name">testLanguageRus</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=53.0.2785.143)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DEVPC13&apos;, ip: &apos;192.168.28.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\Tester\AppData\Local\Temp\scoped_dir1812_6222}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.143, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85220f546cbac66e19750164c2ec8bcd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at ru.stqa.selenium.LanguageRus.testLanguageRus(LanguageRus.java:14)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.stqa.selenium.LoginTrue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginTrue">
+                  </a> <!-- testLoginTrue -->
+                  <span class="method-name">testLoginTrue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.stqa.selenium.ShowPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShowPassword">
+                  </a> <!-- testShowPassword -->
+                  <span class="method-name">testShowPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.stqa.selenium.ForgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgotPassword">
+                  </a> <!-- testForgotPassword -->
+                  <span class="method-name">testForgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.stqa.selenium.ForgotPasswordEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgotPasswordEmpty">
+                  </a> <!-- testForgotPasswordEmpty -->
+                  <span class="method-name">testForgotPasswordEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.stqa.selenium.ForgotPasswordInvalid</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgotPasswordInvalid">
+                  </a> <!-- testForgotPasswordInvalid -->
+                  <span class="method-name">testForgotPasswordInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.stqa.selenium.Calendar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalendar">
+                  </a> <!-- testCalendar -->
+                  <span class="method-name">testCalendar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.stqa.selenium.LoginFalse</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginFalse">
+                  </a> <!-- testLoginFalse -->
+                  <span class="method-name">testLoginFalse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">ru.stqa.selenium.AccountEntry</span>
@@ -131,9 +354,9 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Tests-class-passed -->
-        </div> <!-- panel Tests -->
-        <div panel-name="test-xml-Tests" class="panel">
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">C:\Camdrive_automation\src\test\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -141,79 +364,262 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Tests&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite1&quot;&gt;
   &lt;test name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ru.stqa.selenium.AccountEntry&quot;/&gt;
+      &lt;class name=&quot;ru.stqa.selenium.LoginTrue&quot;/&gt;
+      &lt;class name=&quot;ru.stqa.selenium.LoginFalse&quot;/&gt;
+      &lt;class name=&quot;ru.stqa.selenium.ShowPassword&quot;/&gt;
+      &lt;class name=&quot;ru.stqa.selenium.ForgotPassword&quot;/&gt;
+      &lt;class name=&quot;ru.stqa.selenium.ForgotPasswordInvalid&quot;/&gt;
+      &lt;class name=&quot;ru.stqa.selenium.ForgotPasswordEmpty&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test1 --&gt;
-&lt;/suite&gt; &lt;!-- Tests --&gt;
+  &lt;test name=&quot;Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ru.stqa.selenium.LanguageEng&quot;/&gt;
+      &lt;class name=&quot;ru.stqa.selenium.LanguageRus&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test name=&quot;Test3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ru.stqa.selenium.AccountEntry&quot;/&gt;
+      &lt;class name=&quot;ru.stqa.selenium.Calendar&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
+  &lt;test name=&quot;Test2(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ru.stqa.selenium.LoginTrue&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.LoginTrue --&gt;
+      &lt;class name=&quot;ru.stqa.selenium.ShowPassword&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.ShowPassword --&gt;
+      &lt;class name=&quot;ru.stqa.selenium.LanguageEng&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testLanguageEng&quot;/&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.LanguageEng --&gt;
+      &lt;class name=&quot;ru.stqa.selenium.ForgotPassword&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.ForgotPassword --&gt;
+      &lt;class name=&quot;ru.stqa.selenium.ForgotPasswordEmpty&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.ForgotPasswordEmpty --&gt;
+      &lt;class name=&quot;ru.stqa.selenium.LanguageRus&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testLanguageRus&quot;/&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.LanguageRus --&gt;
+      &lt;class name=&quot;ru.stqa.selenium.ForgotPasswordInvalid&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.ForgotPasswordInvalid --&gt;
+      &lt;class name=&quot;ru.stqa.selenium.Calendar&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.Calendar --&gt;
+      &lt;class name=&quot;ru.stqa.selenium.AccountEntry&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initTestSuite&quot;/&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.AccountEntry --&gt;
+      &lt;class name=&quot;ru.stqa.selenium.LoginFalse&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initWebDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ru.stqa.selenium.LoginFalse --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Tests" class="panel">
+        <div panel-name="testlist-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Tests</span>
+            <span class="header-content">Tests for Suite1</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test1 (1 class)</span>
+                <span class="test-name">Test1 (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2(failed) (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Tests" class="panel">
+        <div panel-name="group-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Tests</span>
+            <span class="header-content">Groups for Suite1</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Tests" class="panel">
+        <div panel-name="times-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Tests</span>
+            <span class="header-content">Times for Suite1</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Tests');
-function tableData_Tests() {
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testAccountEntry')
-data.setCell(0, 2, 'ru.stqa.selenium.AccountEntry')
-data.setCell(0, 3, 4241);
-window.suiteTableData['Tests']= { tableData: data, tableDiv: 'times-div-Tests'}
+data.setCell(0, 1, 'testCalendar')
+data.setCell(0, 2, 'ru.stqa.selenium.Calendar')
+data.setCell(0, 3, 3985);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testForgotPasswordInvalid')
+data.setCell(1, 2, 'ru.stqa.selenium.ForgotPasswordInvalid')
+data.setCell(1, 3, 3664);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoginTrue')
+data.setCell(2, 2, 'ru.stqa.selenium.LoginTrue')
+data.setCell(2, 3, 3470);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testForgotPassword')
+data.setCell(3, 2, 'ru.stqa.selenium.ForgotPassword')
+data.setCell(3, 3, 1392);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testForgotPasswordEmpty')
+data.setCell(4, 2, 'ru.stqa.selenium.ForgotPasswordEmpty')
+data.setCell(4, 3, 1387);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAccountEntry')
+data.setCell(5, 2, 'ru.stqa.selenium.AccountEntry')
+data.setCell(5, 3, 1374);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginFalse')
+data.setCell(6, 2, 'ru.stqa.selenium.LoginFalse')
+data.setCell(6, 3, 1098);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testShowPassword')
+data.setCell(7, 2, 'ru.stqa.selenium.ShowPassword')
+data.setCell(7, 3, 500);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLanguageRus')
+data.setCell(8, 2, 'ru.stqa.selenium.LanguageRus')
+data.setCell(8, 3, 288);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testLanguageEng')
+data.setCell(9, 2, 'ru.stqa.selenium.LanguageEng')
+data.setCell(9, 3, 252);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
-              <div id="times-div-Tests">
-              </div> <!-- times-div-Tests -->
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Tests" class="panel">
+        <div panel-name="reporter-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Tests</span>
+            <span class="header-content">Reporter output for Suite1</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Tests" class="panel">
+        <div panel-name="ignored-methods-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">14 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ru.stqa.selenium.ShowPassword</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ru.stqa.selenium.ForgotPassword</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ru.stqa.selenium.ForgotPasswordEmpty</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ru.stqa.selenium.LanguageRus</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ru.stqa.selenium.ForgotPasswordInvalid</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ru.stqa.selenium.Calendar</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ru.stqa.selenium.LoginFalse</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Tests" class="panel">
+        <div panel-name="chronological-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -224,17 +630,126 @@ return data;
                 <span class="method-name">initTestSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.LoginTrue</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initWebDriver</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginTrue</span>
+                <span class="method-start">2608 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.LoginFalse</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">6080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginFalse</span>
+                <span class="method-start">6087 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.ShowPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">7186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testShowPassword</span>
+                <span class="method-start">7190 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.ForgotPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">7690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testForgotPassword</span>
+                <span class="method-start">7694 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.ForgotPasswordInvalid</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">9087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testForgotPasswordInvalid</span>
+                <span class="method-start">9090 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.ForgotPasswordEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">12755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testForgotPasswordEmpty</span>
+                <span class="method-start">12758 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.LanguageEng</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">14171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLanguageEng</span>
+                <span class="method-start">14175 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.LanguageRus</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">14439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLanguageRus</span>
+                <span class="method-start">14443 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.AccountEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">14752 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAccountEntry</span>
-                <span class="method-start">2619 ms</span>
+                <span class="method-start">14756 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.Calendar</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">16131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCalendar</span>
+                <span class="method-start">16135 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.stqa.selenium.AccountEntry</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6890 ms</span>
+                <span class="method-start">20124 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

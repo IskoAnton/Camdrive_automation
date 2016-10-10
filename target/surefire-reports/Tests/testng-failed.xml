@@ -6,4 +6,9 @@
       <class name="ru.stqa.selenium.AccountEntry"/>
     </classes>
   </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="ru.stqa.selenium.Calendar"/>
+    </classes>
+  </test> <!-- Test2 -->
 </suite> <!-- Failed suite [Tests] -->

@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Tests" verbose="5">
+<suite name="Suite1" verbose="5">
   <test name="Test1">
     <classes>
-      <class name="ru.stqa.selenium.AccountEntry"/>
+      <class name="ru.stqa.selenium.LoginTrue"/>
+      <class name="ru.stqa.selenium.LoginFalse"/>
+      <class name="ru.stqa.selenium.ShowPassword"/>
+      <class name="ru.stqa.selenium.ForgotPassword"/>
+      <class name="ru.stqa.selenium.ForgotPasswordInvalid"/>
+      <class name="ru.stqa.selenium.ForgotPasswordEmpty"/>
     </classes>
-  </test>  
-</suite>
+  </test>
+  <test name="Test2">
+    <classes>
+      <class name="ru.stqa.selenium.LanguageEng"/>
+      <class name="ru.stqa.selenium.LanguageRus"/>
+    </classes>
+  </test>
+  <test name="Test3">
+    <classes>
+      <class name="ru.stqa.selenium.AccountEntry"/>
+      <class name="ru.stqa.selenium.Calendar"/>
+    </classes>
+  </test>
+ </suite>
+
+

@@ -6,16 +6,4 @@
       <class name="ru.stqa.selenium.AccountEntry"/>
     </classes>
   </test> <!-- Test1 -->
-  <test name="Test1(failed)">
-    <classes>
-      <class name="ru.stqa.selenium.AccountEntry">
-        <methods>
-          <include name="testCalendar"/>
-          <include name="initTestSuite"/>
-          <include name="initWebDriver"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.AccountEntry -->
-    </classes>
-  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Tests] -->

@@ -1,7 +1,10 @@
-package ru.stqa.selenium;
+package calendar;
 
 
 import org.testng.annotations.*;
+
+import ru.stqa.selenium.TestNgTestBase;
+
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
 

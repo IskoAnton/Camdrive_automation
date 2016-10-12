@@ -3,82 +3,32 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
   <test name="Test1">
     <classes>
-      <class name="ru.stqa.selenium.LoginTrue"/>
-      <class name="ru.stqa.selenium.LoginFalse"/>
-      <class name="ru.stqa.selenium.ShowPassword"/>
-      <class name="ru.stqa.selenium.ForgotPassword"/>
-      <class name="ru.stqa.selenium.ForgotPasswordInvalid"/>
-      <class name="ru.stqa.selenium.ForgotPasswordEmpty"/>
+      <class name="accountEntry.LoginTrue"/>
+      <class name="accountEntry.LoginFalse"/>
+      <class name="accountEntry.ShowPassword"/>
+      <class name="accountEntry.ForgotPassword"/>
+      <class name="accountEntry.ForgotPasswordInvalid"/>
+      <class name="accountEntry.ForgotPasswordEmpty"/>
     </classes>
   </test> <!-- Test1 -->
   <test name="Test2">
     <classes>
-      <class name="ru.stqa.selenium.LanguageEng"/>
-      <class name="ru.stqa.selenium.LanguageRus"/>
+      <class name="languageCheck.LanguageEng"/>
+      <class name="languageCheck.LanguageAz"/>
+      <class name="languageCheck.LanguageRus"/>
     </classes>
   </test> <!-- Test2 -->
   <test name="Test3">
     <classes>
-      <class name="ru.stqa.selenium.AccountEntry"/>
-      <class name="ru.stqa.selenium.Calendar"/>
+      <class name="generalTesting.LoginTrue"/>
+      <class name="generalTesting.CheckButtons"/>
+      <class name="generalTesting.Quit"/>
     </classes>
   </test> <!-- Test3 -->
-  <test name="Test2(failed)">
+  <test name="Test4">
     <classes>
-      <class name="ru.stqa.selenium.LoginTrue">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.LoginTrue -->
-      <class name="ru.stqa.selenium.ShowPassword">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.ShowPassword -->
-      <class name="ru.stqa.selenium.LanguageEng">
-        <methods>
-          <include name="testLanguageEng"/>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.LanguageEng -->
-      <class name="ru.stqa.selenium.ForgotPassword">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.ForgotPassword -->
-      <class name="ru.stqa.selenium.ForgotPasswordEmpty">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.ForgotPasswordEmpty -->
-      <class name="ru.stqa.selenium.LanguageRus">
-        <methods>
-          <include name="testLanguageRus"/>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.LanguageRus -->
-      <class name="ru.stqa.selenium.ForgotPasswordInvalid">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.ForgotPasswordInvalid -->
-      <class name="ru.stqa.selenium.Calendar">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.Calendar -->
-      <class name="ru.stqa.selenium.AccountEntry">
-        <methods>
-          <include name="initTestSuite"/>
-          <include name="initWebDriver"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.AccountEntry -->
-      <class name="ru.stqa.selenium.LoginFalse">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- ru.stqa.selenium.LoginFalse -->
+      <class name="calendar.AccountEntry"/>
+      <class name="calendar.Calendar"/>
     </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- Test4 -->
 </suite> <!-- Failed suite [Suite1] -->

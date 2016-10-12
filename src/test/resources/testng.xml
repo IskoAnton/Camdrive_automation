@@ -3,24 +3,32 @@
 <suite name="Suite1" verbose="5">
   <test name="Test1">
     <classes>
-      <class name="ru.stqa.selenium.LoginTrue"/>
-      <class name="ru.stqa.selenium.LoginFalse"/>
-      <class name="ru.stqa.selenium.ShowPassword"/>
-      <class name="ru.stqa.selenium.ForgotPassword"/>
-      <class name="ru.stqa.selenium.ForgotPasswordInvalid"/>
-      <class name="ru.stqa.selenium.ForgotPasswordEmpty"/>
+      <class name="accountEntry.LoginTrue"/>
+      <class name="accountEntry.LoginFalse"/>
+      <class name="accountEntry.ShowPassword"/>
+      <class name="accountEntry.ForgotPassword"/>
+      <class name="accountEntry.ForgotPasswordInvalid"/>
+      <class name="accountEntry.ForgotPasswordEmpty"/>
     </classes>
   </test>
   <test name="Test2">
     <classes>
-      <class name="ru.stqa.selenium.LanguageEng"/>
-      <class name="ru.stqa.selenium.LanguageRus"/>
+      <class name="languageCheck.LanguageEng"/>
+      <class name="languageCheck.LanguageAz"/>
+      <class name="languageCheck.LanguageRus"/>
     </classes>
   </test>
-  <test name="Test3">
+   <test name="Test3">
     <classes>
-      <class name="ru.stqa.selenium.AccountEntry"/>
-      <class name="ru.stqa.selenium.Calendar"/>
+      <class name="generalTesting.LoginTrue"/>
+      <class name="generalTesting.CheckButtons"/>
+      <class name="generalTesting.Quit"/>
+    </classes>
+  </test> 
+  <test name="Test4">
+    <classes>
+      <class name="calendar.AccountEntry"/>
+      <class name="calendar.Calendar"/>
     </classes>
   </test>
  </suite>

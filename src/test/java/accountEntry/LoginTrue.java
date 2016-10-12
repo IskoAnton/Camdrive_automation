@@ -1,7 +1,10 @@
-package ru.stqa.selenium;
+package accountEntry;
 
 
 import org.testng.annotations.*;
+
+import ru.stqa.selenium.TestNgTestBase;
+
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
 
@@ -11,8 +14,8 @@ public class LoginTrue extends TestNgTestBase {
   @Test
   public void testLoginTrue() throws Exception {
     driver.get(baseUrl + "/");
-    String login = "tester6";
-    String password = "tester6";
+    String login = "tester5";
+    String password = "tester5";
     driver.findElement(By.name("username")).clear();
     driver.findElement(By.name("username")).sendKeys(login);
     driver.findElement(By.name("password")).clear();

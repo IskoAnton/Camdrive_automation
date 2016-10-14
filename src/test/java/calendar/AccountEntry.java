@@ -15,8 +15,8 @@ public class AccountEntry extends TestNgTestBase {
   @Test
   public void testAccountEntry() throws Exception {
     driver.get(baseUrl + "/");
-    String login = "tester5";
-    String password = "tester5";
+    String login = "monitoring";
+    String password = "monitoring";
     driver.findElement(By.xpath("//input[@name='username']")).clear();
     driver.findElement(By.xpath("//input[@name='username']")).sendKeys(login);
     driver.findElement(By.xpath("//input[@name='password']")).clear();

@@ -146,9 +146,9 @@
       </activation>
     </profile>
     <profile>
-      <id>devhost</id>
+      <id>com</id>
       <properties>
-        <site.url>http://ms4.camdrive.lan/</site.url>
+        <site.url>https://camdrive.com/</site.url>
       </properties>
     </profile>
     <profile>

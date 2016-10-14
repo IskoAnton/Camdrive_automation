@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite1" verbose="5">
-  <test name="Test1">
-    <classes>
-      <class name="accountEntry.LoginTrue"/>
-      <class name="accountEntry.LoginFalse"/>
-      <class name="accountEntry.ShowPassword"/>
-      <class name="accountEntry.ForgotPassword"/>
-      <class name="accountEntry.ForgotPasswordInvalid"/>
-      <class name="accountEntry.ForgotPasswordEmpty"/>
-    </classes>
-  </test>
-  <test name="Test2">
-    <classes>
-      <class name="languageCheck.LanguageEng"/>
-      <class name="languageCheck.LanguageAz"/>
-      <class name="languageCheck.LanguageRus"/>
-    </classes>
-  </test>
-   <test name="Test3">
-    <classes>
-      <class name="generalTesting.LoginTrue"/>
-      <class name="generalTesting.CheckButtons"/>
-      <class name="generalTesting.Quit"/>
-    </classes>
-  </test> 
-  <test name="Test4">
-    <classes>
-      <class name="calendar.AccountEntry"/>
-      <class name="calendar.Calendar"/>
-    </classes>
-  </test>
+   <test name="Test4">
+   <classes>
+     <class name="online.accountEntry"/>
+     <class name="online.openTree"/>
+     <class name="online.checkMenu"/>
+     <class name="online.playButton"/>
+     <class name="online.checkAddCamera"/>
+     <class name="online.checkRemoveCamera"/>
+     <class name="online.checkRenameCamera"/>
+     <class name="online.scale"/>
+     <class name="online.deleteScreen"/>
+     <class name="online.logout"/>
+     </classes>
+    </test>
  </suite>
 
 

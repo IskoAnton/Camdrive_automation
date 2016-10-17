@@ -31,6 +31,7 @@ public class scale extends TestNgTestBase {
     Thread.sleep(3000);
     assertTrue(isElementPresent(By.xpath("//div[@id='4' and contains(@class, 'b')]")));
     driver.findElement(By.xpath("(//img[@title='Формат 1:4'])[4]")).click();
+    Thread.sleep(3000);
   }
 
 

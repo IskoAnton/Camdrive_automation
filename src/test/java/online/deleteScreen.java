@@ -15,12 +15,17 @@ public class deleteScreen extends TestNgTestBase {
     Thread.sleep(5000);
     driver.findElement(By.xpath("//img[@title='Закрыть']")).click();
     assertTrue(isElementPresent(By.xpath("//div[@id='1']/div[@style='display: none;']")));
+    Thread.sleep(5000);
     driver.findElement(By.xpath("(//img[@title='Закрыть'])[2]")).click();
     assertTrue(isElementPresent(By.xpath("//div[@id='2']/div[@style='display: none;']")));
+    Thread.sleep(5000);
     driver.findElement(By.xpath("(//img[@title='Закрыть'])[3]")).click();
     assertTrue(isElementPresent(By.xpath("//div[@id='3']/div[@style='display: none;']")));
+    Thread.sleep(5000);
     driver.findElement(By.xpath("(//img[@title='Закрыть'])[4]")).click();
     assertTrue(isElementPresent(By.xpath("//div[@id='4']/div[@style='display: none;']")));
+    
+    
   }
 
 

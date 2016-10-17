@@ -15,7 +15,7 @@ public class LanguageAz extends TestNgTestBase {
     driver.findElement(By.xpath("//div[@class=\"form-header\"]//li[3]")).click();
     for (int second = 0;; second++) {
     	if (second >= 60) fail("timeout");
-    	try { if ("Şəxsi kabinet".equals(driver.findElement(By.xpath("//div[@id=\"login-box\"]//div[@class=\"info-title\"]")).getText())) break; } catch (Exception e) {}
+    	try { if ("Şəxsi kabinet".equals(driver.findElement(By.cssSelector("div.info-title")).getText())) break; } catch (Exception e) {}
     	Thread.sleep(1000);
     }
 

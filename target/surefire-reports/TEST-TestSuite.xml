@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="83.427" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="119.333" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -P chrome,com,nogrid test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -P chrome,ms4,nogrid test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,14 +62,26 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testAccountEntry" classname="online.accountEntry" time="7.692"/>
-  <testcase name="testOpenTree" classname="online.openTree" time="1.371"/>
-  <testcase name="testCheckMenu" classname="online.checkMenu" time="11.954"/>
-  <testcase name="testPlayButton" classname="online.playButton" time="5.932"/>
-  <testcase name="testCheckAddCamera" classname="online.checkAddCamera" time="2.583"/>
-  <testcase name="testCheckRemoveCamera" classname="online.checkRemoveCamera" time="12.301"/>
-  <testcase name="testCheckRenameCamera" classname="online.checkRenameCamera" time="2.163"/>
-  <testcase name="testScale" classname="online.scale" time="25.904"/>
-  <testcase name="testDeleteScreen" classname="online.deleteScreen" time="6.87"/>
-  <testcase name="testLogout" classname="online.logout" time="2.516"/>
+  <testcase name="testLoginTrue" classname="accountEntry.LoginTrue" time="3.863"/>
+  <testcase name="testLoginFalse" classname="accountEntry.LoginFalse" time="1.036"/>
+  <testcase name="testShowPassword" classname="accountEntry.ShowPassword" time="0.501"/>
+  <testcase name="testForgotPassword" classname="accountEntry.ForgotPassword" time="1.506"/>
+  <testcase name="testForgotPasswordInvalid" classname="accountEntry.ForgotPasswordInvalid" time="1.339"/>
+  <testcase name="testForgotPasswordEmpty" classname="accountEntry.ForgotPasswordEmpty" time="1.26"/>
+  <testcase name="testLanguageEng" classname="languageCheck.LanguageEng" time="1.415"/>
+  <testcase name="testLanguageAz" classname="languageCheck.LanguageAz" time="0.958"/>
+  <testcase name="testLanguageRus" classname="languageCheck.LanguageRus" time="0.894"/>
+  <testcase name="testLoginTrue" classname="generalTesting.LoginTrue" time="1.422"/>
+  <testcase name="testCheckButtons" classname="generalTesting.CheckButtons" time="5.918"/>
+  <testcase name="testQuit" classname="generalTesting.Quit" time="1.626"/>
+  <testcase name="testAccountEntry" classname="online.accountEntry" time="1.395"/>
+  <testcase name="testOpenTree" classname="online.openTree" time="5.766"/>
+  <testcase name="testCheckMenu" classname="online.checkMenu" time="11.415"/>
+  <testcase name="testPlayButton" classname="online.playButton" time="5.228"/>
+  <testcase name="testCheckAddCamera" classname="online.checkAddCamera" time="1.975"/>
+  <testcase name="testCheckRemoveCamera" classname="online.checkRemoveCamera" time="12.279"/>
+  <testcase name="testCheckRenameCamera" classname="online.checkRenameCamera" time="3.129"/>
+  <testcase name="testScale" classname="online.scale" time="28.734"/>
+  <testcase name="testDeleteScreen" classname="online.deleteScreen" time="21.338"/>
+  <testcase name="testLogout" classname="online.logout" time="1.882"/>
 </testsuite>

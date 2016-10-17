@@ -16,12 +16,12 @@ public class checkMenu extends TestNgTestBase {
     driver.get(baseUrl + "/online");
     for (int second = 0;; second++) {
     	if (second >= 60) fail("timeout");
-    	try { if (isElementPresent(By.xpath("//div[@id='jstree']//li/ul//ul//li[1]//a"))) break; } catch (Exception e) {}
+    	try { if (isElementPresent(By.xpath("//div[@id='jstree']//li//ul//li[1]//a"))) break; } catch (Exception e) {}
     	Thread.sleep(1000);
     }
 
     Thread.sleep(5000);
-    driver.findElement(By.xpath("//div[@id='jstree']//li/ul//ul//li[1]//a")).click();
+    driver.findElement(By.xpath("//div[@id='jstree']//li//ul//li[1]//a")).click();
     driver.findElement(By.id("screen_1")).click();
     for (int second = 0;; second++) {
     	if (second >= 60) fail("timeout");
@@ -29,7 +29,7 @@ public class checkMenu extends TestNgTestBase {
     	Thread.sleep(1000);
     }
 
-    driver.findElement(By.xpath("//div[@id='jstree']//li/ul//ul//li[2]//a")).click();
+    driver.findElement(By.xpath("//div[@id='jstree']//li//ul//li[2]//a")).click();
     driver.findElement(By.id("screen_2")).click();
     for (int second = 0;; second++) {
     	if (second >= 60) fail("timeout");
@@ -37,7 +37,7 @@ public class checkMenu extends TestNgTestBase {
     	Thread.sleep(1000);
     }
 
-    driver.findElement(By.xpath("//div[@id='jstree']//li/ul//ul//li[3]//a")).click();
+    driver.findElement(By.xpath("//div[@id='jstree']//li//ul//li[3]//a")).click();
     driver.findElement(By.id("screen_3")).click();
     for (int second = 0;; second++) {
     	if (second >= 60) fail("timeout");
@@ -45,7 +45,7 @@ public class checkMenu extends TestNgTestBase {
     	Thread.sleep(1000);
     }
 
-    driver.findElement(By.xpath("//div[@id='jstree']//li/ul//ul//li[4]//a")).click();
+    driver.findElement(By.xpath("//div[@id='jstree']//li//ul//li[4]//a")).click();
     driver.findElement(By.id("screen_4")).click();
     for (int second = 0;; second++) {
     	if (second >= 60) fail("timeout");

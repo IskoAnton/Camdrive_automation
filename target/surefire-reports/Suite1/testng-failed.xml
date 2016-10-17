@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <test name="Test1">
+    <classes>
+      <class name="accountEntry.LoginTrue"/>
+      <class name="accountEntry.LoginFalse"/>
+      <class name="accountEntry.ShowPassword"/>
+      <class name="accountEntry.ForgotPassword"/>
+      <class name="accountEntry.ForgotPasswordInvalid"/>
+      <class name="accountEntry.ForgotPasswordEmpty"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="languageCheck.LanguageEng"/>
+      <class name="languageCheck.LanguageAz"/>
+      <class name="languageCheck.LanguageRus"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="Test3">
+    <classes>
+      <class name="generalTesting.LoginTrue"/>
+      <class name="generalTesting.CheckButtons"/>
+      <class name="generalTesting.Quit"/>
+    </classes>
+  </test> <!-- Test3 -->
   <test name="Test4">
     <classes>
       <class name="online.accountEntry"/>

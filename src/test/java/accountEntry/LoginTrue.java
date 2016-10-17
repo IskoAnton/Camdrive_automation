@@ -14,8 +14,8 @@ public class LoginTrue extends TestNgTestBase {
   @Test
   public void testLoginTrue() throws Exception {
     driver.get(baseUrl + "/");
-    String login = "monitoring";
-    String password = "monitoring";
+    String login = "tester5";
+    String password = "tester5";
     driver.findElement(By.name("username")).clear();
     driver.findElement(By.name("username")).sendKeys(login);
     driver.findElement(By.name("password")).clear();

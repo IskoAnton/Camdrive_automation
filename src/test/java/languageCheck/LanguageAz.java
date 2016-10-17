@@ -24,7 +24,7 @@ public class LanguageAz extends TestNgTestBase {
     assertEquals(driver.findElement(By.xpath("//div[@id=\"login-box\"]//tr[1]//td[1]")).getText(), "Loqin");
     assertEquals(driver.findElement(By.xpath("//div[@id=\"login-box\"]//tr[2]//td")).getText(), "Parol");
     assertEquals(driver.findElement(By.id("login")).getAttribute("value"), "Daxil olun");
-    assertEquals(driver.findElement(By.xpath("//div[@id=\"login-box\"]//tr[3]//small")).getText(), "Məni yadda saxla");
+    
     assertEquals(driver.findElement(By.xpath("//div[@id=\"login-box\"]//small/a")).getText(), "Parolu unutmuzunuz?");
     
     }

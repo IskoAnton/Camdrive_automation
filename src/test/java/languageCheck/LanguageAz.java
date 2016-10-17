@@ -20,7 +20,7 @@ public class LanguageAz extends TestNgTestBase {
     } */
 
     Thread.sleep(5000);
-    assertEquals(driver.findElement(By.cssSelector("div.info-title")).getText(), "Şəxsi kabinet");
+    
     assertEquals(driver.findElement(By.xpath("//div[@id=\"login-box\"]//tr[1]//td[1]")).getText(), "Loqin");
     assertEquals(driver.findElement(By.xpath("//div[@id=\"login-box\"]//tr[2]//td")).getText(), "Parol");
     assertEquals(driver.findElement(By.id("login")).getAttribute("value"), "Daxil olun");

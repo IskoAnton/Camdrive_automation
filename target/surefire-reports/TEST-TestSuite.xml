@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="119.333" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="22.015" tests="44" errors="0" skipped="40" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
@@ -62,26 +62,213 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLoginTrue" classname="accountEntry.LoginTrue" time="3.863"/>
-  <testcase name="testLoginFalse" classname="accountEntry.LoginFalse" time="1.036"/>
-  <testcase name="testShowPassword" classname="accountEntry.ShowPassword" time="0.501"/>
-  <testcase name="testForgotPassword" classname="accountEntry.ForgotPassword" time="1.506"/>
-  <testcase name="testForgotPasswordInvalid" classname="accountEntry.ForgotPasswordInvalid" time="1.339"/>
-  <testcase name="testForgotPasswordEmpty" classname="accountEntry.ForgotPasswordEmpty" time="1.26"/>
-  <testcase name="testLanguageEng" classname="languageCheck.LanguageEng" time="1.415"/>
-  <testcase name="testLanguageAz" classname="languageCheck.LanguageAz" time="0.958"/>
-  <testcase name="testLanguageRus" classname="languageCheck.LanguageRus" time="0.894"/>
-  <testcase name="testLoginTrue" classname="generalTesting.LoginTrue" time="1.422"/>
-  <testcase name="testCheckButtons" classname="generalTesting.CheckButtons" time="5.918"/>
-  <testcase name="testQuit" classname="generalTesting.Quit" time="1.626"/>
-  <testcase name="testAccountEntry" classname="online.accountEntry" time="1.395"/>
-  <testcase name="testOpenTree" classname="online.openTree" time="5.766"/>
-  <testcase name="testCheckMenu" classname="online.checkMenu" time="11.415"/>
-  <testcase name="testPlayButton" classname="online.playButton" time="5.228"/>
-  <testcase name="testCheckAddCamera" classname="online.checkAddCamera" time="1.975"/>
-  <testcase name="testCheckRemoveCamera" classname="online.checkRemoveCamera" time="12.279"/>
-  <testcase name="testCheckRenameCamera" classname="online.checkRenameCamera" time="3.129"/>
-  <testcase name="testScale" classname="online.scale" time="28.734"/>
-  <testcase name="testDeleteScreen" classname="online.deleteScreen" time="21.338"/>
-  <testcase name="testLogout" classname="online.logout" time="1.882"/>
+  <testcase name="initWebDriver" classname="accountEntry.LoginTrue" time="13.487">
+    <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DEVPC13&apos;, ip: &apos;192.168.28.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"520.1","isDefault":true},"id":1,"name":"","origin":"://"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.46 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.9.10 by C?dric Beust (cedric@beust.com)
+...
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b) on port 2794
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginTrue" classname="accountEntry.LoginTrue" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="accountEntry.LoginFalse" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLoginFalse" classname="accountEntry.LoginFalse" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="accountEntry.ShowPassword" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShowPassword" classname="accountEntry.ShowPassword" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="accountEntry.ForgotPassword" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testForgotPassword" classname="accountEntry.ForgotPassword" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="accountEntry.ForgotPasswordInvalid" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testForgotPasswordInvalid" classname="accountEntry.ForgotPasswordInvalid" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="accountEntry.ForgotPasswordEmpty" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testForgotPasswordEmpty" classname="accountEntry.ForgotPasswordEmpty" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="languageCheck.LanguageEng" time="2.779">
+    <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DEVPC13&apos;, ip: &apos;192.168.28.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"11152.1","isDefault":true},"id":1,"name":"","origin":"://"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.94 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b) on port 37668
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="testLanguageEng" classname="languageCheck.LanguageEng" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="languageCheck.LanguageAz" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLanguageAz" classname="languageCheck.LanguageAz" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="languageCheck.LanguageRus" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLanguageRus" classname="languageCheck.LanguageRus" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="generalTesting.LoginTrue" time="2.845">
+    <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DEVPC13&apos;, ip: &apos;192.168.28.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"10932.1","isDefault":true},"id":1,"name":"","origin":"://"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.92 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b) on port 27228
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginTrue" classname="generalTesting.LoginTrue" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="generalTesting.CheckButtons" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCheckButtons" classname="generalTesting.CheckButtons" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="generalTesting.Quit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testQuit" classname="generalTesting.Quit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.accountEntry" time="2.655">
+    <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DEVPC13&apos;, ip: &apos;192.168.28.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"5772.1","isDefault":true},"id":1,"name":"","origin":"://"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.89 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b) on port 4428
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="testAccountEntry" classname="online.accountEntry" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.openTree" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testOpenTree" classname="online.openTree" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.checkMenu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCheckMenu" classname="online.checkMenu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.playButton" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testPlayButton" classname="online.playButton" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.checkAddCamera" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCheckAddCamera" classname="online.checkAddCamera" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.checkRemoveCamera" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCheckRemoveCamera" classname="online.checkRemoveCamera" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.checkRenameCamera" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCheckRenameCamera" classname="online.checkRenameCamera" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.scale" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testScale" classname="online.scale" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.deleteScreen" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDeleteScreen" classname="online.deleteScreen" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initWebDriver" classname="online.logout" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLogout" classname="online.logout" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

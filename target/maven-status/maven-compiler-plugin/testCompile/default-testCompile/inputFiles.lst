@@ -1,14 +1,13 @@
-c:\Camdrive_automation\src\test\java\calendar\AccountEntry.java
 c:\Camdrive_automation\src\test\java\languageCheck\LanguageEng.java
 c:\Camdrive_automation\src\test\java\accountEntry\ForgotPasswordEmpty.java
 c:\Camdrive_automation\src\test\java\monitoring\CheckOnlineMs1.java
 c:\Camdrive_automation\src\test\java\online\checkRemoveCamera.java
-c:\Camdrive_automation\src\test\java\calendar\Calendar.java
 c:\Camdrive_automation\src\test\java\accountEntry\ForgotPassword.java
 c:\Camdrive_automation\src\test\java\generalTesting\Quit.java
 c:\Camdrive_automation\src\test\java\monitoring\AccountEntry.java
 c:\Camdrive_automation\src\test\java\monitoring\CheckOnlineMs6.java
 c:\Camdrive_automation\src\test\java\monitoring\CheckOnlineMs3.java
+c:\Camdrive_automation\src\test\java\com\example\tests\DownloadTime.java
 c:\Camdrive_automation\src\test\java\accountEntry\LoginTrue.java
 c:\Camdrive_automation\src\test\java\generalTesting\CheckButtons.java
 c:\Camdrive_automation\src\test\java\online\scale.java
@@ -26,6 +25,7 @@ c:\Camdrive_automation\src\test\java\accountEntry\LoginFalse.java
 c:\Camdrive_automation\src\test\java\languageCheck\LanguageRus.java
 c:\Camdrive_automation\src\test\java\ru\stqa\selenium\util\PropertyLoader.java
 c:\Camdrive_automation\src\test\java\languageCheck\LanguageAz.java
+c:\Camdrive_automation\src\test\java\archive\accountEntry.java
 c:\Camdrive_automation\src\test\java\ru\stqa\selenium\pages\Page.java
 c:\Camdrive_automation\src\test\java\ru\stqa\selenium\TestNgTestBase.java
 c:\Camdrive_automation\src\test\java\online\deleteScreen.java

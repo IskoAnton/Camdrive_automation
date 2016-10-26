@@ -1,4 +1,5 @@
-package calendar;
+package archive;
+
 
 
 import org.testng.annotations.*;
@@ -9,14 +10,20 @@ import static org.testng.Assert.*;
 import org.openqa.selenium.*;
 
 
-public class AccountEntry extends TestNgTestBase {
 
+public class accountEntry extends TestNgTestBase {
+
+
+  @BeforeClass(alwaysRun = true)
+  public void setUp() throws Exception {
+
+  }
 
   @Test
   public void testAccountEntry() throws Exception {
     driver.get(baseUrl + "/");
-    String login = "monitoring";
-    String password = "monitoring";
+    String login = "tester5";
+    String password = "tester5";
     driver.findElement(By.xpath("//input[@name='username']")).clear();
     driver.findElement(By.xpath("//input[@name='username']")).sendKeys(login);
     driver.findElement(By.xpath("//input[@name='password']")).clear();
@@ -27,7 +34,7 @@ public class AccountEntry extends TestNgTestBase {
     	try { if ("".equals(driver.findElement(By.id("screen_1")).getText())) break; } catch (Exception e) {}
     	Thread.sleep(1000);
     }
-    
+
   }
- 
+
 }

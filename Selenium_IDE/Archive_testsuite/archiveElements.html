@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://ms4.camdrive.lan/" />
+<title>archiveElements</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">archiveElements</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/online</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Архив</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.bmenu</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.heading</td>
+	<td>Скачать видеоархив</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.panel &gt; table &gt; tbody &gt; tr &gt; td</td>
+	<td>Дата:</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.ui-datepicker-trigger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='archive_download']/div/table/tbody/tr[2]/td</td>
+	<td>Время:</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[@alt='Выберите время']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='archive_download']/div/table/tbody/tr[3]/td</td>
+	<td>Длительность:</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[@alt='Выберите длительность']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=generate_link</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.notes.left</td>
+	<td>При скачивании фрагмента видеоархива с Вашего счета будут списаны средства согласно выбранному объему данных, по цене 1p/Mb</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#rpanel &gt; div.bmenu</td>
+	<td>Календарь</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=th.heading-c</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTable</td>
+	<td>css=#calendar &gt; table.4.5</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=rpanel</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

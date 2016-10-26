@@ -23,7 +23,7 @@ public class LanguageAz extends TestNgTestBase {
     	Thread.sleep(1000);
     } */
     
-    String regexp = "[0-9]{1,2}[:][0-9]{1,2}";
+    /*String regexp = "[0-9]{1,2}[:][0-9]{1,2}";
     
     Pattern pattern = Pattern.compile(regexp);
 
@@ -32,7 +32,7 @@ public class LanguageAz extends TestNgTestBase {
     Matcher matcher = pattern.matcher(str);
     if (matcher.find()) {
     	String finalStr = matcher.group();
-    }
+    }*/
     
     assertEquals(driver.findElement(By.xpath("//div[@id=\"login-box\"]//tr[1]//td[1]")).getText(), "Loqin");
     assertEquals(driver.findElement(By.xpath("//div[@id=\"login-box\"]//tr[2]//td")).getText(), "Parol");

@@ -18,6 +18,7 @@
       <class name="languageCheck.LanguageAz"/>
       <class name="languageCheck.LanguageRus"/>
     </classes>
+    
   </test>
    <test name="Test3">
     <classes>
@@ -26,6 +27,7 @@
       <class name="generalTesting.Quit"/>
     </classes>
   </test> 
+  
     <test name="Test4">
    <classes>
      <class name="online.accountEntry"/>
@@ -40,6 +42,34 @@
      <class name="online.logout"/>
      </classes>
     </test>
+
+  <test name="Test5">
+    <classes>
+      <class name="archive.accountEntry"/>
+      <class name="archive.archiveElements"/>
+      <class name="archive.archiveVideo"/>
+      <class name="archive.downloadDate"/>
+      <class name="archive.downloadTime"/>
+      <class name="archive.downloadDuration"/>
+      <class name="online.logout"/>
+    </classes>
+  </test>
+
+  <test name="Test6">
+    <classes>
+      <class name="online.accountEntry"/>
+      <class name="tariffsTestsuite.tariffMobile"/>
+      <class name="tariffsTestsuite.tariffDom"/>
+      <class name="tariffsTestsuite.tariffDel"/>
+      <class name="tariffsTestsuite.tariffPremium"/>
+      <class name="tariffsTestsuite.tariffIndivid"/>
+      <class name="tariffsTestsuite.tariffCorporate"/>
+      <class name="tariffsTestsuite.goToSchedule"/>
+      <class name="tariffsTestsuite.saveButton"/>
+      <class name="tariffsTestsuite.saveAllButton"/>
+      <class name="online.logout"/>
+    </classes>
+  </test>
 </suite>
 
 

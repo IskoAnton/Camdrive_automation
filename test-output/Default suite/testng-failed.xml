@@ -3,19 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="generalTesting.CheckButtons"/>
+      <class name="archive.archiveVideo"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">
     <classes>
-      <class name="generalTesting.CheckButtons">
+      <class name="archive.archiveVideo">
         <methods>
-          <include name="testCheckButtons"/>
+          <include name="testArchiveVideo"/>
           <include name="initTestSuite"/>
           <include name="initWebDriver"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- generalTesting.CheckButtons -->
+      </class> <!-- archive.archiveVideo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

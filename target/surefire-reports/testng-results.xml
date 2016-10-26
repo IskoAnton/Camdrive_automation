@@ -1,561 +1,433 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="22" failed="0" total="22" passed="0">
+<testng-results skipped="0" failed="0" total="40" passed="40">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="20998" started-at="2016-10-26T03:32:22Z" finished-at="2016-10-26T03:32:43Z">
+  <suite name="Suite1" duration-ms="187926" started-at="2016-10-26T10:15:20Z" finished-at="2016-10-26T10:18:28Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="12710" started-at="2016-10-26T03:32:22Z" finished-at="2016-10-26T03:32:35Z">
+    <test name="Test1" duration-ms="41065" started-at="2016-10-26T10:15:20Z" finished-at="2016-10-26T10:16:01Z">
       <class name="accountEntry.ForgotPasswordInvalid">
-        <test-method status="SKIP" signature="testForgotPasswordInvalid()[pri:0, instance:accountEntry.ForgotPasswordInvalid@246ae04d]" name="testForgotPasswordInvalid" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:accountEntry.ForgotPasswordInvalid@735f7ae5]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:15:58Z" finished-at="2016-10-26T17:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testForgotPasswordInvalid()[pri:0, instance:accountEntry.ForgotPasswordInvalid@735f7ae5]" name="testForgotPasswordInvalid" duration-ms="1443" started-at="2016-10-26T17:15:58Z" finished-at="2016-10-26T17:16:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgotPasswordInvalid -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:accountEntry.ForgotPasswordInvalid@246ae04d]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
+      </class> <!-- accountEntry.ForgotPasswordInvalid -->
+      <class name="accountEntry.ShowPassword">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:accountEntry.ShowPassword@783e6358]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:15:56Z" finished-at="2016-10-26T17:15:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-      </class> <!-- accountEntry.ForgotPasswordInvalid -->
-      <class name="accountEntry.ShowPassword">
-        <test-method status="SKIP" signature="testShowPassword()[pri:0, instance:accountEntry.ShowPassword@1324409e]" name="testShowPassword" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
+        <test-method status="PASS" signature="testShowPassword()[pri:0, instance:accountEntry.ShowPassword@783e6358]" name="testShowPassword" duration-ms="488" started-at="2016-10-26T17:15:56Z" finished-at="2016-10-26T17:15:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testShowPassword -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:accountEntry.ShowPassword@1324409e]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initWebDriver -->
       </class> <!-- accountEntry.ShowPassword -->
       <class name="accountEntry.ForgotPassword">
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:accountEntry.ForgotPassword@2c6a3f77]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:accountEntry.ForgotPassword@17550481]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:15:57Z" finished-at="2016-10-26T17:15:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testForgotPassword()[pri:0, instance:accountEntry.ForgotPassword@2c6a3f77]" name="testForgotPassword" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
+        <test-method status="PASS" signature="testForgotPassword()[pri:0, instance:accountEntry.ForgotPassword@17550481]" name="testForgotPassword" duration-ms="1563" started-at="2016-10-26T17:15:57Z" finished-at="2016-10-26T17:15:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgotPassword -->
       </class> <!-- accountEntry.ForgotPassword -->
       <class name="accountEntry.LoginTrue">
-        <test-method status="FAIL" signature="initWebDriver()[pri:0, instance:accountEntry.LoginTrue@735f7ae5]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:22Z" finished-at="2016-10-26T10:32:22Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: driver.version: unknown
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.callConstructor(ReflectionBasedLocalDriverProvider.java:92)
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.createDriver(ReflectionBasedLocalDriverProvider.java:73)
-	at ru.stqa.selenium.factory.AbstractWebDriverPool.createLocalDriver(AbstractWebDriverPool.java:93)
-	at ru.stqa.selenium.factory.AbstractWebDriverPool.newDriver(AbstractWebDriverPool.java:87)
-	at ru.stqa.selenium.factory.ThreadLocalSingleWebDriverPool.createNewDriver(ThreadLocalSingleWebDriverPool.java:98)
-	at ru.stqa.selenium.factory.ThreadLocalSingleWebDriverPool.getDriver(ThreadLocalSingleWebDriverPool.java:44)
-	at ru.stqa.selenium.TestNgTestBase.initWebDriver(TestNgTestBase.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.callConstructor(ReflectionBasedLocalDriverProvider.java:82)
-	... 35 more
-Caused by: org.openqa.selenium.SessionNotCreatedException: session not created exception
-from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"520.1","isDefault":true},"id":1,"name":"","origin":"://"}
-  (Session info: chrome=54.0.2840.71)
-  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.46 seconds
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:138)
-	... 40 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:accountEntry.LoginTrue@13fee20c]" name="initWebDriver" is-config="true" duration-ms="27242" started-at="2016-10-26T17:15:20Z" finished-at="2016-10-26T17:15:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testLoginTrue()[pri:0, instance:accountEntry.LoginTrue@735f7ae5]" name="testLoginTrue" duration-ms="1" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
+        <test-method status="PASS" signature="testLoginTrue()[pri:0, instance:accountEntry.LoginTrue@13fee20c]" name="testLoginTrue" duration-ms="7941" started-at="2016-10-26T17:15:47Z" finished-at="2016-10-26T17:15:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginTrue -->
       </class> <!-- accountEntry.LoginTrue -->
       <class name="accountEntry.ForgotPasswordEmpty">
-        <test-method status="SKIP" signature="testForgotPasswordEmpty()[pri:0, instance:accountEntry.ForgotPasswordEmpty@62043840]" name="testForgotPasswordEmpty" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:accountEntry.ForgotPasswordEmpty@180bc464]" name="initWebDriver" is-config="true" duration-ms="6" started-at="2016-10-26T17:16:00Z" finished-at="2016-10-26T17:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testForgotPasswordEmpty()[pri:0, instance:accountEntry.ForgotPasswordEmpty@180bc464]" name="testForgotPasswordEmpty" duration-ms="1362" started-at="2016-10-26T17:16:00Z" finished-at="2016-10-26T17:16:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgotPasswordEmpty -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:accountEntry.ForgotPasswordEmpty@62043840]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
+      </class> <!-- accountEntry.ForgotPasswordEmpty -->
+      <class name="accountEntry.LoginFalse">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:accountEntry.LoginFalse@4e04a765]" name="initWebDriver" is-config="true" duration-ms="12" started-at="2016-10-26T17:15:55Z" finished-at="2016-10-26T17:15:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-      </class> <!-- accountEntry.ForgotPasswordEmpty -->
-      <class name="accountEntry.LoginFalse">
-        <test-method status="SKIP" signature="testLoginFalse()[pri:0, instance:accountEntry.LoginFalse@180bc464]" name="testLoginFalse" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
+        <test-method status="PASS" signature="testLoginFalse()[pri:0, instance:accountEntry.LoginFalse@4e04a765]" name="testLoginFalse" duration-ms="982" started-at="2016-10-26T17:15:55Z" finished-at="2016-10-26T17:15:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginFalse -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:accountEntry.LoginFalse@180bc464]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initWebDriver -->
       </class> <!-- accountEntry.LoginFalse -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="2732" started-at="2016-10-26T03:32:35Z" finished-at="2016-10-26T03:32:38Z">
+    <test name="Test2" duration-ms="3993" started-at="2016-10-26T10:16:01Z" finished-at="2016-10-26T10:16:05Z">
       <class name="languageCheck.LanguageRus">
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:languageCheck.LanguageRus@3cbbc1e0]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:38Z" finished-at="2016-10-26T10:32:38Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:languageCheck.LanguageRus@67b6d4ae]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:16:04Z" finished-at="2016-10-26T17:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testLanguageRus()[pri:0, instance:languageCheck.LanguageRus@3cbbc1e0]" name="testLanguageRus" duration-ms="0" started-at="2016-10-26T10:32:38Z" finished-at="2016-10-26T10:32:38Z">
+        <test-method status="PASS" signature="testLanguageRus()[pri:0, instance:languageCheck.LanguageRus@67b6d4ae]" name="testLanguageRus" duration-ms="1143" started-at="2016-10-26T17:16:04Z" finished-at="2016-10-26T17:16:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLanguageRus -->
       </class> <!-- languageCheck.LanguageRus -->
       <class name="languageCheck.LanguageEng">
-        <test-method status="FAIL" signature="initWebDriver()[pri:0, instance:languageCheck.LanguageEng@366e2eef]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:35Z" finished-at="2016-10-26T10:32:35Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: driver.version: unknown
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.callConstructor(ReflectionBasedLocalDriverProvider.java:92)
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.createDriver(ReflectionBasedLocalDriverProvider.java:73)
-	at ru.stqa.selenium.factory.AbstractWebDriverPool.createLocalDriver(AbstractWebDriverPool.java:93)
-	at ru.stqa.selenium.factory.AbstractWebDriverPool.newDriver(AbstractWebDriverPool.java:87)
-	at ru.stqa.selenium.factory.ThreadLocalSingleWebDriverPool.createNewDriver(ThreadLocalSingleWebDriverPool.java:98)
-	at ru.stqa.selenium.factory.ThreadLocalSingleWebDriverPool.getDriver(ThreadLocalSingleWebDriverPool.java:44)
-	at ru.stqa.selenium.TestNgTestBase.initWebDriver(TestNgTestBase.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.callConstructor(ReflectionBasedLocalDriverProvider.java:82)
-	... 35 more
-Caused by: org.openqa.selenium.SessionNotCreatedException: session not created exception
-from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"11152.1","isDefault":true},"id":1,"name":"","origin":"://"}
-  (Session info: chrome=54.0.2840.71)
-  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.94 seconds
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:138)
-	... 40 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:languageCheck.LanguageEng@617c74e5]" name="initWebDriver" is-config="true" duration-ms="9" started-at="2016-10-26T17:16:01Z" finished-at="2016-10-26T17:16:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testLanguageEng()[pri:0, instance:languageCheck.LanguageEng@366e2eef]" name="testLanguageEng" duration-ms="0" started-at="2016-10-26T10:32:38Z" finished-at="2016-10-26T10:32:38Z">
+        <test-method status="PASS" signature="testLanguageEng()[pri:0, instance:languageCheck.LanguageEng@617c74e5]" name="testLanguageEng" duration-ms="1661" started-at="2016-10-26T17:16:01Z" finished-at="2016-10-26T17:16:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLanguageEng -->
       </class> <!-- languageCheck.LanguageEng -->
       <class name="languageCheck.LanguageAz">
-        <test-method status="SKIP" signature="testLanguageAz()[pri:0, instance:languageCheck.LanguageAz@6df97b55]" name="testLanguageAz" duration-ms="0" started-at="2016-10-26T10:32:38Z" finished-at="2016-10-26T10:32:38Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:languageCheck.LanguageAz@6537cf78]" name="initWebDriver" is-config="true" duration-ms="6" started-at="2016-10-26T17:16:03Z" finished-at="2016-10-26T17:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testLanguageAz()[pri:0, instance:languageCheck.LanguageAz@6537cf78]" name="testLanguageAz" duration-ms="1169" started-at="2016-10-26T17:16:03Z" finished-at="2016-10-26T17:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLanguageAz -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:languageCheck.LanguageAz@6df97b55]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:38Z" finished-at="2016-10-26T10:32:38Z">
+      </class> <!-- languageCheck.LanguageAz -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="11980" started-at="2016-10-26T10:16:05Z" finished-at="2016-10-26T10:16:17Z">
+      <class name="generalTesting.CheckButtons">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:generalTesting.CheckButtons@3551a94]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:16:07Z" finished-at="2016-10-26T17:16:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-      </class> <!-- languageCheck.LanguageAz -->
-    </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="2824" started-at="2016-10-26T03:32:38Z" finished-at="2016-10-26T03:32:40Z">
-      <class name="generalTesting.CheckButtons">
-        <test-method status="SKIP" signature="testCheckButtons()[pri:0, instance:generalTesting.CheckButtons@2c9f9fb0]" name="testCheckButtons" duration-ms="0" started-at="2016-10-26T10:32:40Z" finished-at="2016-10-26T10:32:40Z">
+        <test-method status="PASS" signature="testCheckButtons()[pri:0, instance:generalTesting.CheckButtons@3551a94]" name="testCheckButtons" duration-ms="8190" started-at="2016-10-26T17:16:07Z" finished-at="2016-10-26T17:16:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckButtons -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:generalTesting.CheckButtons@2c9f9fb0]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:40Z" finished-at="2016-10-26T10:32:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initWebDriver -->
       </class> <!-- generalTesting.CheckButtons -->
       <class name="generalTesting.LoginTrue">
-        <test-method status="FAIL" signature="initWebDriver()[pri:0, instance:generalTesting.LoginTrue@735b478]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:38Z" finished-at="2016-10-26T10:32:38Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: driver.version: unknown
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.callConstructor(ReflectionBasedLocalDriverProvider.java:92)
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.createDriver(ReflectionBasedLocalDriverProvider.java:73)
-	at ru.stqa.selenium.factory.AbstractWebDriverPool.createLocalDriver(AbstractWebDriverPool.java:93)
-	at ru.stqa.selenium.factory.AbstractWebDriverPool.newDriver(AbstractWebDriverPool.java:87)
-	at ru.stqa.selenium.factory.ThreadLocalSingleWebDriverPool.createNewDriver(ThreadLocalSingleWebDriverPool.java:98)
-	at ru.stqa.selenium.factory.ThreadLocalSingleWebDriverPool.getDriver(ThreadLocalSingleWebDriverPool.java:44)
-	at ru.stqa.selenium.TestNgTestBase.initWebDriver(TestNgTestBase.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.callConstructor(ReflectionBasedLocalDriverProvider.java:82)
-	... 35 more
-Caused by: org.openqa.selenium.SessionNotCreatedException: session not created exception
-from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"10932.1","isDefault":true},"id":1,"name":"","origin":"://"}
-  (Session info: chrome=54.0.2840.71)
-  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.92 seconds
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:138)
-	... 40 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:generalTesting.LoginTrue@5a61f5df]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:16:05Z" finished-at="2016-10-26T17:16:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testLoginTrue()[pri:0, instance:generalTesting.LoginTrue@735b478]" name="testLoginTrue" duration-ms="0" started-at="2016-10-26T10:32:40Z" finished-at="2016-10-26T10:32:40Z">
+        <test-method status="PASS" signature="testLoginTrue()[pri:0, instance:generalTesting.LoginTrue@5a61f5df]" name="testLoginTrue" duration-ms="2220" started-at="2016-10-26T17:16:05Z" finished-at="2016-10-26T17:16:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginTrue -->
       </class> <!-- generalTesting.LoginTrue -->
       <class name="generalTesting.Quit">
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:generalTesting.Quit@2096442d]" name="initWebDriver" is-config="true" duration-ms="2" started-at="2016-10-26T10:32:40Z" finished-at="2016-10-26T10:32:40Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:generalTesting.Quit@531be3c5]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:16:15Z" finished-at="2016-10-26T17:16:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testQuit()[pri:0, instance:generalTesting.Quit@2096442d]" name="testQuit" duration-ms="0" started-at="2016-10-26T10:32:40Z" finished-at="2016-10-26T10:32:40Z">
+        <test-method status="PASS" signature="testQuit()[pri:0, instance:generalTesting.Quit@531be3c5]" name="testQuit" duration-ms="1556" started-at="2016-10-26T17:16:15Z" finished-at="2016-10-26T17:16:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuit -->
       </class> <!-- generalTesting.Quit -->
     </test> <!-- Test3 -->
-    <test name="Test4" duration-ms="2646" started-at="2016-10-26T03:32:40Z" finished-at="2016-10-26T03:32:43Z">
+    <test name="Test4" duration-ms="97619" started-at="2016-10-26T10:16:17Z" finished-at="2016-10-26T10:17:55Z">
       <class name="online.deleteScreen">
-        <test-method status="SKIP" signature="testDeleteScreen()[pri:0, instance:online.deleteScreen@5cc7c2a6]" name="testDeleteScreen" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.deleteScreen@39fb3ab6]" name="initWebDriver" is-config="true" duration-ms="7" started-at="2016-10-26T17:17:31Z" finished-at="2016-10-26T17:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testDeleteScreen()[pri:0, instance:online.deleteScreen@39fb3ab6]" name="testDeleteScreen" duration-ms="22024" started-at="2016-10-26T17:17:31Z" finished-at="2016-10-26T17:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteScreen -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:online.deleteScreen@5cc7c2a6]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+      </class> <!-- online.deleteScreen -->
+      <class name="online.logout">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.logout@6276ae34]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:17:53Z" finished-at="2016-10-26T17:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-      </class> <!-- online.deleteScreen -->
-      <class name="online.logout">
-        <test-method status="SKIP" signature="testLogout()[pri:0, instance:online.logout@b97c004]" name="testLogout" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:online.logout@6276ae34]" name="testLogout" duration-ms="1692" started-at="2016-10-26T17:17:53Z" finished-at="2016-10-26T17:17:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:online.logout@b97c004]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+      </class> <!-- online.logout -->
+      <class name="online.playButton">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.playButton@13a57a3b]" name="initWebDriver" is-config="true" duration-ms="8" started-at="2016-10-26T17:16:37Z" finished-at="2016-10-26T17:16:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-      </class> <!-- online.logout -->
-      <class name="online.playButton">
-        <test-method status="SKIP" signature="testPlayButton()[pri:0, instance:online.playButton@61a485d2]" name="testPlayButton" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="testPlayButton()[pri:0, instance:online.playButton@13a57a3b]" name="testPlayButton" duration-ms="6168" started-at="2016-10-26T17:16:37Z" finished-at="2016-10-26T17:16:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPlayButton -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:online.playButton@61a485d2]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initWebDriver -->
       </class> <!-- online.playButton -->
-      <class name="online.checkMenu">
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:online.checkMenu@59e84876]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testCheckMenu()[pri:0, instance:online.checkMenu@59e84876]" name="testCheckMenu" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCheckMenu -->
-      </class> <!-- online.checkMenu -->
       <class name="online.openTree">
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:online.openTree@337d0578]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.openTree@7f560810]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:16:19Z" finished-at="2016-10-26T17:16:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testOpenTree()[pri:0, instance:online.openTree@337d0578]" name="testOpenTree" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="testOpenTree()[pri:0, instance:online.openTree@7f560810]" name="testOpenTree" duration-ms="6135" started-at="2016-10-26T17:16:19Z" finished-at="2016-10-26T17:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOpenTree -->
       </class> <!-- online.openTree -->
+      <class name="online.checkMenu">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.checkMenu@69d9c55]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:16:25Z" finished-at="2016-10-26T17:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testCheckMenu()[pri:0, instance:online.checkMenu@69d9c55]" name="testCheckMenu" duration-ms="12231" started-at="2016-10-26T17:16:25Z" finished-at="2016-10-26T17:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckMenu -->
+      </class> <!-- online.checkMenu -->
       <class name="online.checkRenameCamera">
-        <test-method status="SKIP" signature="testCheckRenameCamera()[pri:0, instance:online.checkRenameCamera@7946e1f4]" name="testCheckRenameCamera" duration-ms="1" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.checkRenameCamera@59e84876]" name="initWebDriver" is-config="true" duration-ms="21" started-at="2016-10-26T17:16:59Z" finished-at="2016-10-26T17:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testCheckRenameCamera()[pri:0, instance:online.checkRenameCamera@59e84876]" name="testCheckRenameCamera" duration-ms="3106" started-at="2016-10-26T17:16:59Z" finished-at="2016-10-26T17:17:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckRenameCamera -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:online.checkRenameCamera@7946e1f4]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initWebDriver -->
       </class> <!-- online.checkRenameCamera -->
       <class name="online.checkRemoveCamera">
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:online.checkRemoveCamera@6276ae34]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.checkRemoveCamera@337d0578]" name="initWebDriver" is-config="true" duration-ms="17" started-at="2016-10-26T17:16:45Z" finished-at="2016-10-26T17:16:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testCheckRemoveCamera()[pri:0, instance:online.checkRemoveCamera@6276ae34]" name="testCheckRemoveCamera" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="testCheckRemoveCamera()[pri:0, instance:online.checkRemoveCamera@337d0578]" name="testCheckRemoveCamera" duration-ms="13639" started-at="2016-10-26T17:16:46Z" finished-at="2016-10-26T17:16:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckRemoveCamera -->
       </class> <!-- online.checkRemoveCamera -->
       <class name="online.accountEntry">
-        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:online.accountEntry@7ca48474]" name="initTestSuite" is-config="true" duration-ms="19" started-at="2016-10-26T10:32:22Z" finished-at="2016-10-26T10:32:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTestSuite -->
-        <test-method status="FAIL" signature="initWebDriver()[pri:0, instance:online.accountEntry@7ca48474]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:40Z" finished-at="2016-10-26T10:32:40Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: driver.version: unknown
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.callConstructor(ReflectionBasedLocalDriverProvider.java:92)
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.createDriver(ReflectionBasedLocalDriverProvider.java:73)
-	at ru.stqa.selenium.factory.AbstractWebDriverPool.createLocalDriver(AbstractWebDriverPool.java:93)
-	at ru.stqa.selenium.factory.AbstractWebDriverPool.newDriver(AbstractWebDriverPool.java:87)
-	at ru.stqa.selenium.factory.ThreadLocalSingleWebDriverPool.createNewDriver(ThreadLocalSingleWebDriverPool.java:98)
-	at ru.stqa.selenium.factory.ThreadLocalSingleWebDriverPool.getDriver(ThreadLocalSingleWebDriverPool.java:44)
-	at ru.stqa.selenium.TestNgTestBase.initWebDriver(TestNgTestBase.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at ru.stqa.selenium.factory.ReflectionBasedLocalDriverProvider.callConstructor(ReflectionBasedLocalDriverProvider.java:82)
-	... 35 more
-Caused by: org.openqa.selenium.SessionNotCreatedException: session not created exception
-from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"5772.1","isDefault":true},"id":1,"name":"","origin":"://"}
-  (Session info: chrome=54.0.2840.71)
-  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.89 seconds
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DEVPC13', ip: '192.168.28.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:138)
-	... 40 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.accountEntry@153f5a29]" name="initWebDriver" is-config="true" duration-ms="7" started-at="2016-10-26T17:16:17Z" finished-at="2016-10-26T17:16:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testAccountEntry()[pri:0, instance:online.accountEntry@7ca48474]" name="testAccountEntry" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="testAccountEntry()[pri:0, instance:online.accountEntry@153f5a29]" name="testAccountEntry" duration-ms="1739" started-at="2016-10-26T17:16:17Z" finished-at="2016-10-26T17:16:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAccountEntry -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:online.accountEntry@7ca48474]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- online.accountEntry -->
       <class name="online.scale">
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:online.scale@3c09711b]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.scale@61a485d2]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:17:02Z" finished-at="2016-10-26T17:17:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="SKIP" signature="testScale()[pri:0, instance:online.scale@3c09711b]" name="testScale" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="testScale()[pri:0, instance:online.scale@61a485d2]" name="testScale" duration-ms="28650" started-at="2016-10-26T17:17:02Z" finished-at="2016-10-26T17:17:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScale -->
       </class> <!-- online.scale -->
       <class name="online.checkAddCamera">
-        <test-method status="SKIP" signature="testCheckAddCamera()[pri:0, instance:online.checkAddCamera@39fb3ab6]" name="testCheckAddCamera" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCheckAddCamera -->
-        <test-method status="SKIP" signature="initWebDriver()[pri:0, instance:online.checkAddCamera@39fb3ab6]" name="initWebDriver" is-config="true" duration-ms="0" started-at="2016-10-26T10:32:43Z" finished-at="2016-10-26T10:32:43Z">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.checkAddCamera@7ca48474]" name="initWebDriver" is-config="true" duration-ms="6" started-at="2016-10-26T17:16:43Z" finished-at="2016-10-26T17:16:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testCheckAddCamera()[pri:0, instance:online.checkAddCamera@7ca48474]" name="testCheckAddCamera" duration-ms="2147" started-at="2016-10-26T17:16:43Z" finished-at="2016-10-26T17:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckAddCamera -->
       </class> <!-- online.checkAddCamera -->
     </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="14415" started-at="2016-10-26T10:17:55Z" finished-at="2016-10-26T10:18:09Z">
+      <class name="online.logout">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.logout@6a2bcfcb]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:18:08Z" finished-at="2016-10-26T17:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:online.logout@6a2bcfcb]" name="testLogout" duration-ms="1568" started-at="2016-10-26T17:18:08Z" finished-at="2016-10-26T17:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+      </class> <!-- online.logout -->
+      <class name="archive.archiveElements">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:archive.archiveElements@6a024a67]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:17:57Z" finished-at="2016-10-26T17:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testArchiveElements()[pri:0, instance:archive.archiveElements@6a024a67]" name="testArchiveElements" duration-ms="2691" started-at="2016-10-26T17:17:57Z" finished-at="2016-10-26T17:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArchiveElements -->
+      </class> <!-- archive.archiveElements -->
+      <class name="archive.downloadDate">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:archive.downloadDate@174d20a]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:18:02Z" finished-at="2016-10-26T17:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testDownloadDate()[pri:0, instance:archive.downloadDate@174d20a]" name="testDownloadDate" duration-ms="2087" started-at="2016-10-26T17:18:02Z" finished-at="2016-10-26T17:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadDate -->
+      </class> <!-- archive.downloadDate -->
+      <class name="archive.archiveVideo">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:archive.archiveVideo@7921b0a2]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:17:59Z" finished-at="2016-10-26T17:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testArchiveVideo()[pri:0, instance:archive.archiveVideo@7921b0a2]" name="testArchiveVideo" duration-ms="3183" started-at="2016-10-26T17:17:59Z" finished-at="2016-10-26T17:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArchiveVideo -->
+      </class> <!-- archive.archiveVideo -->
+      <class name="archive.downloadDuration">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:archive.downloadDuration@1efbd816]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:18:06Z" finished-at="2016-10-26T17:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testDownloadDuration()[pri:0, instance:archive.downloadDuration@1efbd816]" name="testDownloadDuration" duration-ms="1328" started-at="2016-10-26T17:18:06Z" finished-at="2016-10-26T17:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadDuration -->
+      </class> <!-- archive.downloadDuration -->
+      <class name="archive.accountEntry">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:archive.accountEntry@6ea12c19]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:17:55Z" finished-at="2016-10-26T17:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:archive.accountEntry@6ea12c19]" name="setUp" is-config="true" duration-ms="0" started-at="2016-10-26T17:17:55Z" finished-at="2016-10-26T17:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAccountEntry()[pri:0, instance:archive.accountEntry@6ea12c19]" name="testAccountEntry" duration-ms="1916" started-at="2016-10-26T17:17:55Z" finished-at="2016-10-26T17:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountEntry -->
+      </class> <!-- archive.accountEntry -->
+      <class name="archive.downloadTime">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:archive.downloadTime@66d2e7d9]" name="initWebDriver" is-config="true" duration-ms="20" started-at="2016-10-26T17:18:05Z" finished-at="2016-10-26T17:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testDownloadTime()[pri:0, instance:archive.downloadTime@66d2e7d9]" name="testDownloadTime" duration-ms="1591" started-at="2016-10-26T17:18:05Z" finished-at="2016-10-26T17:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadTime -->
+      </class> <!-- archive.downloadTime -->
+    </test> <!-- Test5 -->
+    <test name="Test6" duration-ms="18660" started-at="2016-10-26T10:18:09Z" finished-at="2016-10-26T10:18:28Z">
+      <class name="tariffsTestsuite.tariffIndivid">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:tariffsTestsuite.tariffIndivid@5d5eef3d]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:18:18Z" finished-at="2016-10-26T17:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testTariffIndivid()[pri:0, instance:tariffsTestsuite.tariffIndivid@5d5eef3d]" name="testTariffIndivid" duration-ms="152" started-at="2016-10-26T17:18:18Z" finished-at="2016-10-26T17:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTariffIndivid -->
+      </class> <!-- tariffsTestsuite.tariffIndivid -->
+      <class name="tariffsTestsuite.tariffCorporate">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:tariffsTestsuite.tariffCorporate@56f4468b]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:18:18Z" finished-at="2016-10-26T17:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testTariffCorporate()[pri:0, instance:tariffsTestsuite.tariffCorporate@56f4468b]" name="testTariffCorporate" duration-ms="502" started-at="2016-10-26T17:18:18Z" finished-at="2016-10-26T17:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTariffCorporate -->
+      </class> <!-- tariffsTestsuite.tariffCorporate -->
+      <class name="tariffsTestsuite.saveButton">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:tariffsTestsuite.saveButton@3a82f6ef]" name="initWebDriver" is-config="true" duration-ms="13" started-at="2016-10-26T17:18:24Z" finished-at="2016-10-26T17:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testSaveButton()[pri:0, instance:tariffsTestsuite.saveButton@3a82f6ef]" name="testSaveButton" duration-ms="523" started-at="2016-10-26T17:18:24Z" finished-at="2016-10-26T17:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveButton -->
+      </class> <!-- tariffsTestsuite.saveButton -->
+      <class name="tariffsTestsuite.tariffDom">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:tariffsTestsuite.tariffDom@4439f31e]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:18:14Z" finished-at="2016-10-26T17:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testTariffDom()[pri:0, instance:tariffsTestsuite.tariffDom@4439f31e]" name="testTariffDom" duration-ms="1133" started-at="2016-10-26T17:18:14Z" finished-at="2016-10-26T17:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTariffDom -->
+      </class> <!-- tariffsTestsuite.tariffDom -->
+      <class name="online.logout">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.logout@643b1d11]" name="initWebDriver" is-config="true" duration-ms="15" started-at="2016-10-26T17:18:26Z" finished-at="2016-10-26T17:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:online.logout@643b1d11]" name="testLogout" duration-ms="1434" started-at="2016-10-26T17:18:26Z" finished-at="2016-10-26T17:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+      </class> <!-- online.logout -->
+      <class name="tariffsTestsuite.tariffPremium">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:tariffsTestsuite.tariffPremium@23ceabc1]" name="initWebDriver" is-config="true" duration-ms="7" started-at="2016-10-26T17:18:16Z" finished-at="2016-10-26T17:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testTariffPremium()[pri:0, instance:tariffsTestsuite.tariffPremium@23ceabc1]" name="testTariffPremium" duration-ms="1593" started-at="2016-10-26T17:18:16Z" finished-at="2016-10-26T17:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTariffPremium -->
+      </class> <!-- tariffsTestsuite.tariffPremium -->
+      <class name="tariffsTestsuite.tariffDel">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:tariffsTestsuite.tariffDel@5dfcfece]" name="initWebDriver" is-config="true" duration-ms="4" started-at="2016-10-26T17:18:15Z" finished-at="2016-10-26T17:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testTariffDel()[pri:0, instance:tariffsTestsuite.tariffDel@5dfcfece]" name="testTariffDel" duration-ms="1152" started-at="2016-10-26T17:18:15Z" finished-at="2016-10-26T17:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTariffDel -->
+      </class> <!-- tariffsTestsuite.tariffDel -->
+      <class name="tariffsTestsuite.goToSchedule">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:tariffsTestsuite.goToSchedule@6cc4c815]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:18:19Z" finished-at="2016-10-26T17:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testGoToSchedule()[pri:0, instance:tariffsTestsuite.goToSchedule@6cc4c815]" name="testGoToSchedule" duration-ms="5628" started-at="2016-10-26T17:18:19Z" finished-at="2016-10-26T17:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoToSchedule -->
+      </class> <!-- tariffsTestsuite.goToSchedule -->
+      <class name="tariffsTestsuite.tariffMobile">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:tariffsTestsuite.tariffMobile@215be6bb]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:18:11Z" finished-at="2016-10-26T17:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testTariffMobile()[pri:0, instance:tariffsTestsuite.tariffMobile@215be6bb]" name="testTariffMobile" duration-ms="3095" started-at="2016-10-26T17:18:11Z" finished-at="2016-10-26T17:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTariffMobile -->
+      </class> <!-- tariffsTestsuite.tariffMobile -->
+      <class name="online.accountEntry">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:online.accountEntry@32d992b2]" name="initTestSuite" is-config="true" duration-ms="19" started-at="2016-10-26T17:15:20Z" finished-at="2016-10-26T17:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestSuite -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:online.accountEntry@32d992b2]" name="initWebDriver" is-config="true" duration-ms="5" started-at="2016-10-26T17:18:09Z" finished-at="2016-10-26T17:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testAccountEntry()[pri:0, instance:online.accountEntry@32d992b2]" name="testAccountEntry" duration-ms="1777" started-at="2016-10-26T17:18:09Z" finished-at="2016-10-26T17:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountEntry -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:online.accountEntry@32d992b2]" name="tearDown" is-config="true" duration-ms="1416" started-at="2016-10-26T17:18:28Z" finished-at="2016-10-26T17:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- online.accountEntry -->
+      <class name="tariffsTestsuite.saveAllButton">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:tariffsTestsuite.saveAllButton@100fc185]" name="initWebDriver" is-config="true" duration-ms="7" started-at="2016-10-26T17:18:25Z" finished-at="2016-10-26T17:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testSavaAllButton()[pri:0, instance:tariffsTestsuite.saveAllButton@100fc185]" name="testSavaAllButton" duration-ms="1594" started-at="2016-10-26T17:18:25Z" finished-at="2016-10-26T17:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSavaAllButton -->
+      </class> <!-- tariffsTestsuite.saveAllButton -->
+    </test> <!-- Test6 -->
   </suite> <!-- Suite1 -->
 </testng-results>

@@ -39,202 +39,30 @@
       <class name="online.logout"/>
     </classes>
   </test> <!-- Test4 -->
-  <test name="Test1(failed)">
+  <test name="Test5">
     <classes>
-      <class name="accountEntry.LoginTrue">
-        <methods>
-          <include name="testLoginTrue"/>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- accountEntry.LoginTrue -->
-      <class name="accountEntry.ShowPassword">
-        <methods>
-          <include name="testShowPassword"/>
-        </methods>
-      </class> <!-- accountEntry.ShowPassword -->
-      <class name="generalTesting.LoginTrue">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- generalTesting.LoginTrue -->
-      <class name="accountEntry.ForgotPassword">
-        <methods>
-          <include name="testForgotPassword"/>
-        </methods>
-      </class> <!-- accountEntry.ForgotPassword -->
-      <class name="languageCheck.LanguageEng">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- languageCheck.LanguageEng -->
-      <class name="accountEntry.ForgotPasswordEmpty">
-        <methods>
-          <include name="testForgotPasswordEmpty"/>
-        </methods>
-      </class> <!-- accountEntry.ForgotPasswordEmpty -->
-      <class name="accountEntry.ForgotPasswordInvalid">
-        <methods>
-          <include name="testForgotPasswordInvalid"/>
-        </methods>
-      </class> <!-- accountEntry.ForgotPasswordInvalid -->
-      <class name="accountEntry.LoginFalse">
-        <methods>
-          <include name="testLoginFalse"/>
-        </methods>
-      </class> <!-- accountEntry.LoginFalse -->
-      <class name="online.accountEntry">
-        <methods>
-          <include name="initTestSuite"/>
-          <include name="initWebDriver"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- online.accountEntry -->
+      <class name="archive.accountEntry"/>
+      <class name="archive.archiveElements"/>
+      <class name="archive.archiveVideo"/>
+      <class name="archive.downloadDate"/>
+      <class name="archive.downloadTime"/>
+      <class name="archive.downloadDuration"/>
+      <class name="online.logout"/>
     </classes>
-  </test> <!-- Test1(failed) -->
-  <test name="Test2(failed)">
+  </test> <!-- Test5 -->
+  <test name="Test6">
     <classes>
-      <class name="accountEntry.LoginTrue">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- accountEntry.LoginTrue -->
-      <class name="generalTesting.LoginTrue">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- generalTesting.LoginTrue -->
-      <class name="languageCheck.LanguageEng">
-        <methods>
-          <include name="testLanguageEng"/>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- languageCheck.LanguageEng -->
-      <class name="languageCheck.LanguageAz">
-        <methods>
-          <include name="testLanguageAz"/>
-        </methods>
-      </class> <!-- languageCheck.LanguageAz -->
-      <class name="languageCheck.LanguageRus">
-        <methods>
-          <include name="testLanguageRus"/>
-        </methods>
-      </class> <!-- languageCheck.LanguageRus -->
-      <class name="online.accountEntry">
-        <methods>
-          <include name="initTestSuite"/>
-          <include name="initWebDriver"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- online.accountEntry -->
+      <class name="online.accountEntry"/>
+      <class name="tariffsTestsuite.tariffMobile"/>
+      <class name="tariffsTestsuite.tariffDom"/>
+      <class name="tariffsTestsuite.tariffDel"/>
+      <class name="tariffsTestsuite.tariffPremium"/>
+      <class name="tariffsTestsuite.tariffIndivid"/>
+      <class name="tariffsTestsuite.tariffCorporate"/>
+      <class name="tariffsTestsuite.goToSchedule"/>
+      <class name="tariffsTestsuite.saveButton"/>
+      <class name="tariffsTestsuite.saveAllButton"/>
+      <class name="online.logout"/>
     </classes>
-  </test> <!-- Test2(failed) -->
-  <test name="Test3(failed)">
-    <classes>
-      <class name="generalTesting.Quit">
-        <methods>
-          <include name="testQuit"/>
-        </methods>
-      </class> <!-- generalTesting.Quit -->
-      <class name="accountEntry.LoginTrue">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- accountEntry.LoginTrue -->
-      <class name="generalTesting.LoginTrue">
-        <methods>
-          <include name="testLoginTrue"/>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- generalTesting.LoginTrue -->
-      <class name="languageCheck.LanguageEng">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- languageCheck.LanguageEng -->
-      <class name="generalTesting.CheckButtons">
-        <methods>
-          <include name="testCheckButtons"/>
-        </methods>
-      </class> <!-- generalTesting.CheckButtons -->
-      <class name="online.accountEntry">
-        <methods>
-          <include name="initTestSuite"/>
-          <include name="initWebDriver"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- online.accountEntry -->
-    </classes>
-  </test> <!-- Test3(failed) -->
-  <test name="Test4(failed)">
-    <classes>
-      <class name="online.checkRemoveCamera">
-        <methods>
-          <include name="testCheckRemoveCamera"/>
-        </methods>
-      </class> <!-- online.checkRemoveCamera -->
-      <class name="generalTesting.LoginTrue">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- generalTesting.LoginTrue -->
-      <class name="languageCheck.LanguageEng">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- languageCheck.LanguageEng -->
-      <class name="online.scale">
-        <methods>
-          <include name="testScale"/>
-        </methods>
-      </class> <!-- online.scale -->
-      <class name="online.deleteScreen">
-        <methods>
-          <include name="testDeleteScreen"/>
-        </methods>
-      </class> <!-- online.deleteScreen -->
-      <class name="online.checkMenu">
-        <methods>
-          <include name="testCheckMenu"/>
-        </methods>
-      </class> <!-- online.checkMenu -->
-      <class name="online.openTree">
-        <methods>
-          <include name="testOpenTree"/>
-        </methods>
-      </class> <!-- online.openTree -->
-      <class name="online.playButton">
-        <methods>
-          <include name="testPlayButton"/>
-        </methods>
-      </class> <!-- online.playButton -->
-      <class name="accountEntry.LoginTrue">
-        <methods>
-          <include name="initWebDriver"/>
-        </methods>
-      </class> <!-- accountEntry.LoginTrue -->
-      <class name="online.checkRenameCamera">
-        <methods>
-          <include name="testCheckRenameCamera"/>
-        </methods>
-      </class> <!-- online.checkRenameCamera -->
-      <class name="online.checkAddCamera">
-        <methods>
-          <include name="testCheckAddCamera"/>
-        </methods>
-      </class> <!-- online.checkAddCamera -->
-      <class name="online.logout">
-        <methods>
-          <include name="testLogout"/>
-        </methods>
-      </class> <!-- online.logout -->
-      <class name="online.accountEntry">
-        <methods>
-          <include name="testAccountEntry"/>
-          <include name="initTestSuite"/>
-          <include name="initWebDriver"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- online.accountEntry -->
-    </classes>
-  </test> <!-- Test4(failed) -->
+  </test> <!-- Test6 -->
 </suite> <!-- Failed suite [Suite1] -->
